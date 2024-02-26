@@ -81,7 +81,6 @@
             class="about-pic"
           />
         </div>
-
         <div class="about-details-container">
           <div class="about-containers">
             <br />
@@ -363,7 +362,6 @@
           </div>
         </div>
       </div>
-
       <img
         src="Portfolio/assets/arrow.png"
         alt="Arrow icon"
@@ -412,6 +410,6 @@
       </nav>
       <p>Copyright &#169; 2023 Siva Prabhu. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="Portfolio/script.js"></script>
   </body>
 </html>
