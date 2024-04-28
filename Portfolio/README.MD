@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siva Prabhu - Embedded Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Siva Prabhu</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Siva Prabhu</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container section__pic-container-1">
+      <img src="./assets/DSC_4382 .jpg" alt="Siva Prabhu profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Siva Prabhu</h1>
+      <p class="section__text__p2">Embedded Engineer</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/Siva Prabhu_resume.pdf', '_blank')"
+        >
+          Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Me
+        </button>
+      </div>
+      <div class="socials-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn profile"
+          class="icon"
+          onclick="window.open('https://www.linkedin.com/in/siva-prabhu-v-273084248/', '_blank')"
+        />
+        <img
+          src="./assets/github.png"
+          alt="GitHub profile"
+          class="icon"
+          onclick="window.open('https://github.com/prabhu-88', '_blank')"
+        />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="./assets/20230717012730_IMG_8401-01.jpeg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+
+      <div class="about-details-container">
+        <div class="about-containers">
+          <br />
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Experience</h3>
+            <p>
+              Embedded Systems Design <br />
+              C/C++ Programming
+            </p>
+          </div>
+          <br />
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>
+              BE Electronics & Instrumentation Engineering <br />
+              2017-2021
+            </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am a passionate and motivated Embedded Engineer with a strong
+            foundation in embedded systems design, programming, and
+            troubleshooting. I am eager to contribute to innovative and
+            challenging projects in the embedded systems domain while
+            continuously learning and growing within a dynamic team
+            environment.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#experience'"
+    />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-container">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Skills</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Skill icon"
+                class="icon"
+              />
+              <div>
+                <h3>Embedded Systems Design</h3>
+                <p>Advanced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Skill icon"
+                class="icon"
+              />
+              <div>
+                <h3>C/C++ Programming</h3>
+                <p>Advanced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Skill icon"
+                class="icon"
+              />
+              <div>
+                <h3>Microcontroller Programming</h3>
+                <p>Advanced (e.g., ARM, AVR)</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Skill icon"
+                class="icon"
+              />
+              <div>
+                <h3>Debugging and Troubleshooting</h3>
+                <p>Advanced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Skill icon"
+                class="icon"
+              />
+              <div>
+                <h3>Technical Documentation</h3>
+                <p>Advanced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-1.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/prabhu-88', '_blank')"
+            >
+              GitHub
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/prabhu-88', '_blank')"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-2.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/prabhu-88', '_blank')"
+            >
+              GitHub
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/prabhu-88', '_blank')"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-3.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/prabhu-88', '_blank')"
+            >
+              GitHub
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/prabhu-88', '_blank')"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          class="icon contact-icon email-icon"
+          alt="Email icon"
+        />
+        <p>
+          <a href="mailto:sprabhu0808@gmail.com">sprabhu0808@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="linkedIn icon"
+          class="icon contact-icon"
+        />
+        <p>
+          <a href="http://www.linkedin.com/in/siva-prabhu-v-273084248/"
+            >LinkedIn</a
+          >
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Siva Prabhu. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
