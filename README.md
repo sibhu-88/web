@@ -49,12 +49,9 @@
 <body>
     <div class="container">
         <img src="Portfolio/assets/DSC_4382.jpg" alt="SIVA PRABHU's Profile Image" class="profile-image">
-
         <h1>SIVA PRABHU's Portfolio</h1>
-
         <h2>Introduction</h2>
         <p>Passionate and motivated Embedded Engineer with a strong foundation in embedded systems design, programming, and troubleshooting. Seeking an entry-level position to apply theoretical knowledge gained through coursework and hands-on projects while contributing to innovative and challenging projects in the embedded systems domain. Eager to learn and grow within a dynamic team environment while leveraging problem-solving skills and attention to detail to deliver high-quality solutions.</p>
-
         <h2>Skills</h2>
         <ul>
             <li>Embedded Systems Design</li>
@@ -64,26 +61,22 @@
             <li>Debugging and Troubleshooting</li>
             <li>Technical Documentation</li>
         </ul>
-
         <h2>Projects</h2>
         <div class="project">
             <h3>IoT Weather Station</h3>
             <p>Description: Designed and implemented an IoT weather station using an ARM microcontroller, sensors for temperature, humidity, and pressure, and MQTT protocol for data transmission.</p>
             <p>Technologies Used: ARM Cortex-M series, C programming, MQTT, Sensor interfacing</p>
         </div>
-
         <div class="project">
             <h3>Home Automation System</h3>
             <p>Description: Developed a home automation system using an AVR microcontroller, relays for controlling devices, and a mobile app for remote access and control.</p>
             <p>Technologies Used: AVR microcontrollers, C programming, Mobile app development (Android/iOS)</p>
         </div>
-
         <div class="project">
             <h3>Embedded Linux Project</h3>
             <p>Description: Collaborated on a team to create an embedded Linux-based system for real-time data processing and control in industrial automation.</p>
             <p>Technologies Used: Linux, C/C++, Real-time operating systems (RTOS), Industrial protocols (e.g., Modbus)</p>
         </div>
-
         <div class="contact-info">
             <h2>Contact</h2>
             <p>Email: <a href="mailto:imsivaprabhu88@gmail.com">imsivaprabhu88@gmail.com</a></p>
